@@ -1,0 +1,21 @@
+{
+  "name": "ng-express-server",
+  "version": "0.1.0",
+  "description": "Express based server for angular applications",
+  "scripts": {
+    "start": "node ./server/server.js"
+  },
+  "keywords": [
+    "angular",
+    "server",
+    "express"
+  ],
+  "author": "R10C Technologies",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-urlrewrite": "^1.4.0"
+  }
+}
